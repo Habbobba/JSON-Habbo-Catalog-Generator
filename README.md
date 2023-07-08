@@ -1,6 +1,6 @@
 ## Habbo Catalog Generator
 
-The Habbo Catalog Generator automates catalog creation for Arcturus Morningstar. The scripts offer options to generate the entire catalog or specific components like clothing, items, walls, and pages.
+The Habbo Catalog Generator automates catalog creation for Arcturus Morningstar. The scripts offer options to generate the entire catalog or specific components like clothing, items, walls, and pages. The script provides instant generation of queries and is user-friendly, making it accessible for users with minimal experience.
 
 ## Instructions
 
