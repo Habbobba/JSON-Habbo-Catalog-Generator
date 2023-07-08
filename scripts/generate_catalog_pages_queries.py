@@ -4,7 +4,7 @@ import logging
 import datetime
 import traceback
 
-query_template = "INSERT INTO `catalog_pages` (`id`, `parent_id`, `caption_save`, `caption`, `page_layout`, `icon_color`, `icon_image`, `min_rank`, `order_num`, `visible`, `enabled`, `club_only`, `vip_only`, `page_headline`, `page_teaser`, `page_special`, `page_text1`, `page_text2`, `page_text_details`, `page_text_teaser`, `room_id`, `includes`) VALUES ({}, -1, '', '{}', 'default_3x3', 1, 1, 1, 1, '1', '1', '0', '0', '', '', '', NULL, NULL, NULL, NULL, 0, '');"
+query_template = "INSERT INTO `catalog_pages` (`id`, `parent_id`, `caption_save`, `caption`, `page_layout`, `icon_color`, `icon_image`, `min_rank`, `order_num`, `visible`, `enabled`, `club_only`, `vip_only`, `page_headline`, `page_teaser`, `page_special`, `page_text1`, `page_text2`, `page_text_details`, `page_text_teaser`, `room_id`, `includes`) VALUES ({}, 2, '', '{}', 'default_3x3', 1, 1, 1, 1, '1', '1', '0', '0', '', '', '', NULL, NULL, NULL, NULL, 0, '');"
 
 # Path to the JSON file
 json_file_path = os.path.join("..", "furnidata", "furnidata.json")
