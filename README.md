@@ -1,6 +1,6 @@
 ## Habbo Catalog Generator
 
-These scripts generate SQL queries using a JSON file (furnidata.json) for catalog items in a virtual world, populating a database with relevant data.
+The Habbo Catalog Generator automates catalog creation for Arcturus Morningstar. The scripts offer options to generate the entire catalog or specific components like clothing, items, walls, and pages.
 
 ## Instructions
 
