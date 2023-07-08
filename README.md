@@ -38,6 +38,24 @@ If you choose the **Run Specific Script** option, you will be prompted to enter 
 
 Before executing the scripts, ensure that you configure the ID ranges in each script file to match the desired catalog items in your `furnidata.json`. Locate the `start_id` and `end_id` variables at the top of each script file and adjust them accordingly.
 
+## Setting up the Catalog from Scratch
+
+If you are creating a catalog from scratch, it is essential to check the "database" folder in the root directory of this project for a SQL file called `catalog_pages.sql`. This file contains all the default pages required for a catalog to function correctly.
+
+Without the `catalog_pages.sql` file, the catalog may not work as expected, resulting in broken functionality.
+
+To ensure a smooth catalog creation process, follow these steps:
+
+1. Locate the `catalog_pages.sql` file in the "database" folder.
+
+2. Import the SQL file into your database management system (e.g., MySQL) to create the necessary tables and populate them with the default catalog pages.
+
+3. Verify that the tables and catalog pages are successfully imported into your database.
+
+4. Proceed with the catalog generation process using the instructions provided above.
+
+If you encounter any issues or have further questions, please don't hesitate to contact Gizmo#1813 on Discord.
+
 ## Note
 
 Make sure to configure the script files properly before executing them to ensure the generated queries match your `furnidata.json` file.
@@ -47,4 +65,5 @@ Make sure to configure the script files properly before executing them to ensure
 This collection of scripts was created by Gizmo.
 
 ## Donate
+
 If you wish to donate, please contact Gizmo#1813 on Discord.
