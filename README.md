@@ -1,6 +1,6 @@
 ## ♛ Habbo Catalog Generator ♛
 
-The Habbo Catalog Generator automates catalog creation for Arcturus Morningstar. The scripts offer options to generate the entire catalog or specific components like clothing, items, walls, and pages. The script provides instant generation of queries and is user-friendly, making it accessible for users with minimal experience.
+The Habbo Catalog Generator automates catalog creation for Arcturus Morningstar. This user-friendly tool offers options to generate the entire catalog or specific components like clothing, items, walls, and pages. It provides instant generation of queries and is accessible for users with minimal experience.
 
 ## Instructions
 
@@ -9,12 +9,6 @@ The Habbo Catalog Generator automates catalog creation for Arcturus Morningstar.
 2. **Ensure script availability:** Make sure that the `scripts` folder contains all the necessary script files mentioned below.
 
 3. **Run the `generator.py` script:** Execute the `generator.py` script to access the catalog generation interface.
-
-## Interface Options
-
-1. **Generate Catalog**: Executes all the scripts located in the `scripts` folder to generate the catalog data. Before running this option, make sure to configure the correct ID ranges in each script file based on your `furnidata.json`.
-
-2. **Run Specific Script**: Allows you to run a specific script individually. This option provides a list of available scripts, and you can select the script you want to run.
 
 ## Available Scripts
 
@@ -30,31 +24,27 @@ The Habbo Catalog Generator automates catalog creation for Arcturus Morningstar.
 
 6. **Wall Items Base**: Generates SQL queries for wall items to populate the `items_base` table.
 
-## Running a Specific Script
+## Running the Generator
 
-If you choose the **Run Specific Script** option, you will be prompted to enter the number corresponding to the script you want to run. Each script generates the required SQL queries for a specific catalog component.
+The Habbo Catalog Generator provides two interface options:
 
-## Configuring ID Ranges
+1. **Generate Catalog**: Executes all the scripts located in the `scripts` folder to generate the catalog data. Before running this option, configure the correct ID ranges in each script file based on your `furnidata.json`.
 
-Before executing the scripts, ensure that you configure the ID ranges in each script file to match the desired catalog items in your `furnidata.json`. Locate the `start_id` and `end_id` variables at the top of each script file and adjust them accordingly.
+2. **Run Specific Script**: Allows you to run a specific script individually. This option provides a list of available scripts, and you can select the script you want to run.
 
 ## Setting up the Catalog from Scratch
 
-If you are creating a catalog from scratch, it is essential to check the "database" folder in the root directory of this project for a SQL file called `catalog_pages.sql`. This file contains all the default pages required for a catalog to function correctly.
+If you are creating a catalog from scratch, follow these steps to ensure a smooth catalog creation process:
 
-Without the `catalog_pages.sql` file, the catalog may not work as expected, resulting in broken functionality.
+1. Check the "database" folder in the root directory for a SQL file called `catalog_pages.sql`. This file contains all the default pages required for a catalog to function correctly.
 
-To ensure a smooth catalog creation process, follow these steps:
-
-1. Locate the `catalog_pages.sql` file in the "database" folder.
-
-2. Import the SQL file into your database management system (e.g., MySQL) to create the necessary tables and populate them with the default catalog pages.
+2. Import the `catalog_pages.sql` file into your database management system (e.g., MySQL) to create the necessary tables and populate them with the default catalog pages.
 
 3. Verify that the tables and catalog pages are successfully imported into your database.
 
 4. Proceed with the catalog generation process using the instructions provided above.
 
-If you encounter any issues or have further questions, please don't hesitate to contact Gizmo#1813 on Discord.
+If you encounter any issues or have further questions, please contact Gizmo#1813 on Discord.
 
 ## Note
 
