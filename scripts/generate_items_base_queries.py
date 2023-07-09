@@ -66,9 +66,6 @@ for item in json_data.get("roomitemtypes", {}).get("furnitype", []):
         query = query_template.format(id, id, classname, allow_sit, allow_lay, allow_walk, customparams or "0", interaction_modes_count, "0")
         queries.append(query)
 
-# Console log the project credits
-print("Created by Gizmo#1813")
-
 # Console log the number of queries generated
 num_queries = len(queries)
 print(f"Number of queries generated: {num_queries}")
