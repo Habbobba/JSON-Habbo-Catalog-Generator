@@ -54,9 +54,6 @@ for item in json_data.get("roomitemtypes", {}).get("furnitype", []):
             logging.error(error_msg, exc_info=True)
             print(error_msg)
 
-# Console log the project credits
-print("Created by Gizmo#1813")
-
 # Console log the number of queries generated
 num_queries = len(queries)
 print(f"Number of queries generated: {num_queries}")
