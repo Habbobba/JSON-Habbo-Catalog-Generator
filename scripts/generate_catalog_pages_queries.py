@@ -75,9 +75,6 @@ for item in json_data:
         print(error_msg)
         traceback.print_exc()
 
-# Console log the project credits
-print("Created by Gizmo#1813")
-
 # Console log the number of queries generated
 num_queries = len(queries)
 print(f"Number of queries generated: {num_queries}")
