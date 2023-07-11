@@ -1,4 +1,4 @@
-## ♛ Habbo Catalog Generator ♛
+## ♛ JSON Habbo Catalog Generator ♛
 
 The Habbo Catalog Generator automates catalog creation for Arcturus Morningstar. This user-friendly tool offers options to generate the entire catalog or specific components like clothing, items, walls, and pages. It provides instant generation of queries and is accessible for users with minimal experience.
 
