@@ -50,6 +50,9 @@ If you encounter any issues or have further questions, please contact Gizmo#1813
 
 Make sure to configure the script files properly before executing them to ensure the generated queries match your `furnidata.json` file.
 
+## Reminder
+You have to have a formatted furnidata.json file for this script to work properly. If you need assistance in formatting the furnidata.json file, you can use the JSON Furnidata Formatter tool available on GitHub. This tool is designed specifically to format furnidata.json files, ensuring correct JSON syntax and proper formatting. Follow the instructions provided in the tool's repository to format your furnidata.json file using the tool.
+
 ## Credits
 
 This collection of scripts was created by Gizmo.
