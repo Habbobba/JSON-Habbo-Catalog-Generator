@@ -1,14 +1,12 @@
 ## ♛ JSON Habbo Catalog Generator ♛
 
-The Habbo Catalog Generator automates catalog creation for Arcturus Morningstar. This user-friendly tool offers options to generate the entire catalog or specific components like clothing, items, walls, and pages. It provides instant generation of queries and is accessible for users with minimal experience.
+The Habbo Catalog Generator automates catalog creation for Arcturus Morningstar. This user-friendly tool offers options to generate the entire catalog or specific components such as clothing, items, walls, and pages. It provides instant generation of queries and is accessible for users with minimal experience.
 
 ## Instructions
 
-1. **Place the `furnidata.json` file:** Move the `furnidata.json` file into the `furnidata` folder located in the root directory.
+1. **Place the `furnidata.json` file:** Insert a `furnidata.json` file into the `furnidata` folder.
 
-2. **Ensure script availability:** Make sure that the `scripts` folder contains all the necessary script files mentioned below.
-
-3. **Run the `generator.py` script:** Execute the `generator.py` script to access the catalog generation interface.
+2. **Run the `python generator.py` script:** Execute the `generator.py` script to access the catalog generation interface.
 
 ## Available Scripts
 
@@ -44,14 +42,16 @@ If you are creating a catalog from scratch, follow these steps to ensure a smoot
 
 4. Proceed with the catalog generation process using the instructions provided above.
 
-If you encounter any issues or have further questions, please contact Gizmo#1813 on Discord.
+5. After generating your `items_base` queries and running them in your database, please check the "database" folder for the following SQL files and run them in your database: "interaction_type_defaults.sql," "items_base_default_values.sql," and "multiheight_defaults.sql."
+   It is important to note that these SQL files are not fully completed and may not be entirely accurate. However, they do offer a reliable foundation for fixing furniture until mid-2023.
 
 ## Note
 
-Make sure to configure the script files properly before executing them to ensure the generated queries match your `furnidata.json` file.
+Please note that you need to have a properly formatted `furnidata.json` file for this script to work correctly. If you need assistance in formatting the `furnidata.json` file, you can use the [JSON Furnidata Formatter](https://github.com/Habbobba/JSON-Furnidata-Formatter) tool available on GitHub. This tool is specifically designed to format `furnidata.json` files, ensuring correct JSON syntax and proper formatting. Follow the instructions provided in the tool's repository to format your `furnidata.json` file using the tool.
 
-## Reminder
-You have to have a formatted furnidata.json file for this script to work properly. If you need assistance in formatting the furnidata.json file, you can use the [JSON Furnidata Formatter](https://github.com/Habbobba/JSON-Furnidata-Formatter) tool available on GitHub. This tool is designed specifically to format furnidata.json files, ensuring correct JSON syntax and proper formatting. Follow the instructions provided in the tool's repository to format your furnidata.json file using the tool.
+Additionally, make sure to configure the script files properly before executing them to ensure the generated queries match your `furnidata.json` file.
+
+If you have any updated versions of the SQL files mentioned (e.g., "interaction_type_defaults.sql," "items_base_default_values.sql," and "multiheight_defaults.sql"), please feel free to send them to me. I would be more than happy to incorporate them and improve the accuracy of the provided SQL queries.
 
 ## Credits
 
