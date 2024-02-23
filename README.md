@@ -57,6 +57,6 @@ If you have any updated versions of the SQL files mentioned (e.g., "interaction_
 
 This collection of scripts was created by Gizmo.
 
-## Donate
+## Contact
 
-If you wish to donate, please contact Gizmo#1813 on Discord.
+Gizmo_1813 on Discord.
